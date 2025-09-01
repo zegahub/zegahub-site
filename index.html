@@ -2,42 +2,130 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ZegaHub</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script defer src="assets/js/main.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ZegaHub — Human × AI Ops with Guardrails</title>
+  <meta name="description" content="Stand up one governed AI workflow in 72 hours. Outcomes-first, tool-agnostic, residency-first. No platform lock-in.">
+  <style>
+:root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height: 1.6; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #111; background: #fff; }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+nav { background: #f8f9fb; border-bottom: 1px solid #e6e8ee; }
+nav .container { display: flex; align-items: center; gap: 18px; }
+nav a { text-decoration: none; color: #111; padding: 10px 8px; }
+nav a:hover { text-decoration: underline; }
+.brand { font-weight: 700; letter-spacing: 0.2px; margin-right: 8px; }
+.hero { padding: 56px 0; background: #f5f7ff; border-bottom: 1px solid #e6e8ee; }
+.hero h1 { font-size: 36px; margin: 0 0 12px; }
+.hero p { margin: 0 0 18px; }
+.cta { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; }
+.cta.primary { background: #1f50ff; color: #fff; }
+.band { padding: 24px 0; border-bottom: 1px solid #eee; }
+.bullets { padding-left: 18px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 16px; }
+.card { border: 1px solid #e6e8ee; border-radius: 12px; padding: 16px; background: #fff; }
+h2 { margin: 0 0 12px; }
+h3 { margin: 16px 0 8px; }
+footer { border-top: 1px solid #e6e8ee; background: #fafafa; margin-top: 40px; }
+footer .container { display: flex; gap: 12px; justify-content: space-between; flex-wrap: wrap; }
+small.muted { color: #666; }
+details { padding: 8px 12px; border: 1px solid #e6e8ee; border-radius: 10px; margin: 8px 0; background: #fff; }
+summary { cursor: pointer; font-weight: 600; }
+form label { display: block; margin: 8px 0 4px; }
+input, textarea, select { width: 100%; padding: 10px; border: 1px solid #d7dbe6; border-radius: 10px; }
+button { padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; background: #1f50ff; color: #fff; }
+.notice { background: #fff8e6; border: 1px solid #ffe2a8; padding: 12px; border-radius: 12px; }
+</style>
+  <script src="/assets/js/utm.js" defer></script>
 </head>
 <body>
-<header class="site-header">
+
+<nav>
   <div class="container">
     <div class="brand">ZegaHub</div>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="saics.html">SAICS</a>
-      <a href="outcomes.html">Outcomes/KPIs</a>
-      <a href="governance.html">Governance & Residency</a>
-      <a class="cta" href="request-demo.html">Request Demo</a>
-    </nav>
+    <a href="/index.html">Home</a>
+    <a href="/saics.html">SAICS™</a>
+    <a href="/outcomes.html">Outcomes</a>
+    <a href="/governance.html">Governance</a>
+    <a href="/request-demo.html">Request Demo</a>
+    <a href="/pilot.html">72‑Hour Pilot</a>
   </div>
-</header>
-<main class="container">
+</nav>
 
-  <section class="hero">
-  <h1>Human × AI Ops, deployed with guardrails.</h1>
-<p>Ship outcomes in weeks, not quarters. Embedded team, tool-agnostic, residency-first governance.</p>
 
-  <div class="actions">
-    <a class="btn" href="pilot.html?utm_source=site&utm_medium=nav&utm_campaign=pilot_v1">Start 72-Hour Pilot</a>
-    <a class="btn ghost" href="saics.html">How SAICS Works</a>
+<section class="hero">
+  <div class="container">
+    <h1>Human × AI Ops with Guardrails</h1>
+    <p>Human × AI Ops, deployed with guardrails.</p>
+    <a class="cta primary track-utm" href="/request-demo.html">Request a Demo</a>
+    <a class="cta track-utm" href="/pilot.html">Start 72‑Hour Pilot</a>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="cards">
+      <div class="card">
+        <h3>72‑Hour Pilot</h3>
+        <p>Prove it fast: 1 live workflow, guardrails, KPI baselines, go/no-go report.</p>
+        <a class="cta track-utm" href="/pilot.html">Explore the pilot</a>
+      </div>
+      <div class="card">
+        <h3>SAICS™ Framework</h3>
+        <p>Stand-up → Adoption → Integration (with Compliance/Scaling). Tool-agnostic.</p>
+        <a class="cta track-utm" href="/saics.html">Learn about SAICS™</a>
+      </div>
+      <div class="card">
+        <h3>Outcomes & KPIs</h3>
+        <p>Deltas that matter: TTR↓, throughput↑, FPA↑, error rate↓, cost per unit↓.</p>
+        <a class="cta track-utm" href="/outcomes.html">See outcomes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <h2>What we do in 10 seconds</h2>
+    <ul class="bullets">
+      <li>Stand up one governed AI workflow in <strong>72 hours</strong>.</li>
+      <li>Blend <strong>human + AI</strong> to cut TTR, raise throughput, and improve accuracy.</li>
+      <li>Tool-agnostic + residency-first. <strong>No platform lock-in.</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <h2>Who we help</h2>
+    <ul class="bullets">
+      <li>Ops teams (20–500 FTE) with queues, manual reviews, or compliance pressure.</li>
+      <li>Regulated / process-heavy orgs that need Canada/EU data residency.</li>
+      <li>Teams that want outcomes now, not a year-long platform rollout.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <h2>Why ZegaHub</h2>
+    <ul class="bullets">
+      <li><strong>Outcomes-first:</strong> 72-hour pilot → weekly ships → measurable deltas.</li>
+      <li><strong>Tool-agnostic:</strong> OpenAI, Anthropic, Azure, GCP, on-prem — your stack.</li>
+      <li><strong>Residency-first:</strong> RBAC, audit trails, data boundaries (Canada/EU).</li>
+      <li><strong>Embedded team:</strong> Done-with-you, then handoff with playbooks + KPIs.</li>
+      <li><strong>No platform tax:</strong> fixed, phased scopes; infra at cost.</li>
+    </ul>
   </div>
 </section>
 
 
-</main>
-<footer class="site-footer">
+<footer>
   <div class="container">
-    <p>© 2025 ZegaHub · Family Jan</p>
+    <small class="muted">© 2025 ZegaHub. Human × AI Ops with guardrails.</small>
+    <small class="muted">Built with Family Jan · Content pack v1 · 2025-09-01 07:08</small>
   </div>
 </footer>
+
 </body>
 </html>

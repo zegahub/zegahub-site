@@ -2,41 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ZegaHub</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script defer src="assets/js/main.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SAICS™ — Synthetic AI Command System | ZegaHub</title>
+  <meta name="description" content="ZegaHub’s framework to orchestrate AI in operations—72h pilot, adoption, integration—with governance and KPIs.">
+  <style>
+:root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height: 1.6; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #111; background: #fff; }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+nav { background: #f8f9fb; border-bottom: 1px solid #e6e8ee; }
+nav .container { display: flex; align-items: center; gap: 18px; }
+nav a { text-decoration: none; color: #111; padding: 10px 8px; }
+nav a:hover { text-decoration: underline; }
+.brand { font-weight: 700; letter-spacing: 0.2px; margin-right: 8px; }
+.hero { padding: 56px 0; background: #f5f7ff; border-bottom: 1px solid #e6e8ee; }
+.hero h1 { font-size: 36px; margin: 0 0 12px; }
+.hero p { margin: 0 0 18px; }
+.cta { display: inline-block; margin-right: 10px; padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; }
+.cta.primary { background: #1f50ff; color: #fff; }
+.band { padding: 24px 0; border-bottom: 1px solid #eee; }
+.bullets { padding-left: 18px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 16px; }
+.card { border: 1px solid #e6e8ee; border-radius: 12px; padding: 16px; background: #fff; }
+h2 { margin: 0 0 12px; }
+h3 { margin: 16px 0 8px; }
+footer { border-top: 1px solid #e6e8ee; background: #fafafa; margin-top: 40px; }
+footer .container { display: flex; gap: 12px; justify-content: space-between; flex-wrap: wrap; }
+small.muted { color: #666; }
+details { padding: 8px 12px; border: 1px solid #e6e8ee; border-radius: 10px; margin: 8px 0; background: #fff; }
+summary { cursor: pointer; font-weight: 600; }
+form label { display: block; margin: 8px 0 4px; }
+input, textarea, select { width: 100%; padding: 10px; border: 1px solid #d7dbe6; border-radius: 10px; }
+button { padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; background: #1f50ff; color: #fff; }
+.notice { background: #fff8e6; border: 1px solid #ffe2a8; padding: 12px; border-radius: 12px; }
+</style>
+  <script src="/assets/js/utm.js" defer></script>
 </head>
 <body>
-<header class="site-header">
+
+<nav>
   <div class="container">
     <div class="brand">ZegaHub</div>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="saics.html">SAICS</a>
-      <a href="outcomes.html">Outcomes/KPIs</a>
-      <a href="governance.html">Governance & Residency</a>
-      <a class="cta" href="request-demo.html">Request Demo</a>
-    </nav>
+    <a href="/index.html">Home</a>
+    <a href="/saics.html">SAICS™</a>
+    <a href="/outcomes.html">Outcomes</a>
+    <a href="/governance.html">Governance</a>
+    <a href="/request-demo.html">Request Demo</a>
+    <a href="/pilot.html">72‑Hour Pilot</a>
   </div>
-</header>
-<main class="container">
+</nav>
 
-  <h1>SAICS — How it Works</h1>
-  <ol class="steps">
-    <li><strong>Stand‑up:</strong> Rapid discovery, pilot workflows, guardrails.</li>
-    <li><strong>Adoption:</strong> Team training, playbooks, SLA‑backed rollout.</li>
-    <li><strong>Integration:</strong> Data adapters, automation, KPI dashboards.</li>
-  </ol>
-  <div class="note">
-    <p><em>Placeholder copy.</em> Replace with “Website Copy Blocks v1”.</p>
-  </div>
 
-</main>
-<footer class="site-footer">
+<section class="hero">
   <div class="container">
-    <p>© 2025 ZegaHub · Family Jan</p>
+    <h1>Human × AI Ops with Guardrails</h1>
+    <p>SAICS™ = Synthetic AI Command System.</p>
+    <a class="cta primary track-utm" href="/request-demo.html">Request a Demo</a>
+    <a class="cta track-utm" href="/pilot.html">Start 72‑Hour Pilot</a>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <h2>Stand‑up → Adoption → Integration</h2>
+    <p>SAICS™ is our operating framework to deploy governed AI into real ops. We start with a tightly scoped 72‑hour pilot, then adopt and integrate step‑by‑step with measurable KPIs and residency‑first controls.</p>
+    <ul class="bullets">
+      <li><strong>Stand‑up (72h):</strong> pick 1 workflow; ship with guardrails; baseline KPIs.</li>
+      <li><strong>Adoption:</strong> expand coverage; tune prompts/tools; upskill the human loop.</li>
+      <li><strong>Integration:</strong> harden governance; automate escalations; scale with playbooks.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <h2>SAICS™ — quick FAQ</h2>
+    <details>
+      <summary>How is SAICS™ different from “AI in a box” platforms?</summary>
+      <p>It’s a <em>framework</em>, not a product. We orchestrate your stack and prove outcomes fast, without lock-in.</p>
+    </details>
+    <details>
+      <summary>What do I get in 72 hours?</summary>
+      <p>One live workflow + guardrails, KPI baselines (TTR, throughput, FPA, error rate), and a go/no-go report.</p>
+    </details>
+    <details>
+      <summary>What makes you trustworthy?</summary>
+      <p>Residency-first governance (RBAC, audit, data boundaries), transparent KPIs, and phased kill-criteria.</p>
+    </details>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <small class="muted">© 2025 ZegaHub. Human × AI Ops with guardrails.</small>
+    <small class="muted">Built with Family Jan · Content pack v1 · 2025-09-01 07:08</small>
   </div>
 </footer>
+
 </body>
 </html>

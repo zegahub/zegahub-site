@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Governance & Residency | ZegaHub</title>
-  <meta name="description" content="Residency-first governance with RBAC, audit trails, and data boundaries (Canada/EU). Tool-agnostic, no lock-in.">
+  <title>Contact | ZegaHub</title>
+  <meta name="description" content="Contact ZegaHub. Tell us your 30‑day goal and we’ll reply within 1 business day.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <style>
 :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height: 1.6; }
 * { box-sizing: border-box; }
@@ -29,14 +30,11 @@ h3 { margin: 16px 0 8px; }
 footer { border-top: 1px solid #e6e8ee; background: #fafafa; margin-top: 40px; }
 footer .container { display: flex; gap: 12px; justify-content: space-between; flex-wrap: wrap; }
 small.muted { color: #666; }
-details { padding: 8px 12px; border: 1px solid #e6e8ee; border-radius: 10px; margin: 8px 0; background: #fff; }
-summary { cursor: pointer; font-weight: 600; }
 form label { display: block; margin: 8px 0 4px; }
 input, textarea, select { width: 100%; padding: 10px; border: 1px solid #d7dbe6; border-radius: 10px; }
 button { padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; background: #1f50ff; color: #fff; }
 .notice { background: #fff8e6; border: 1px solid #ffe2a8; padding: 12px; border-radius: 12px; }
 </style>
-  <script src="/assets/js/utm.js" defer></script>
 </head>
 <body>
 
@@ -49,29 +47,37 @@ button { padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; bac
     <a href="/governance.html">Governance</a>
     <a href="/request-demo.html">Request Demo</a>
     <a href="/pilot.html">72‑Hour Pilot</a>
+    <a href="/contact.html">Contact</a>
   </div>
 </nav>
 
 
 <section class="hero">
   <div class="container">
-    <h1>Human × AI Ops with Guardrails</h1>
-    <p>Residency‑first, tool‑agnostic, no lock‑in.</p>
-    <a class="cta primary track-utm" href="/request-demo.html">Request a Demo</a>
-    <a class="cta track-utm" href="/pilot.html">Start 72‑Hour Pilot</a>
+    <h1>Contact ZegaHub</h1>
+    <p>Tell us your 30‑day goal. We’ll reply within 1 business day.</p>
   </div>
 </section>
 
 <section class="band">
   <div class="container">
-    <h2>Data Residency & Controls</h2>
-    <ul class="bullets">
-      <li><strong>Residency‑first:</strong> Canada/EU storage paths; vendor selection reflects residency needs.</li>
-      <li><strong>RBAC:</strong> least privilege access to prompts, models, and data.</li>
-      <li><strong>Audit trails:</strong> transparent logging of actions, versions, and overrides.</li>
-      <li><strong>Boundaries:</strong> PII redaction, scoped contexts, and safe review queues.</li>
-    </ul>
-    <p class="notice">We’re tool‑agnostic: OpenAI, Anthropic, Azure, GCP, on‑prem — we orchestrate your stack without lock‑in.</p>
+    <div class="notice">Temporary: the form uses <code>mailto:info@zegahub.com</code>. We can wire a backend endpoint whenever you’re ready.</div>
+    <form action="mailto:info@zegahub.com" method="post" enctype="text/plain">
+      <label>Your name</label>
+      <input name="name" required>
+      <label>Work email</label>
+      <input name="email" type="email" required>
+      <label>Topic</label>
+      <select name="topic">
+        <option>72‑Hour Pilot</option>
+        <option>Partnership</option>
+        <option>General</option>
+      </select>
+      <label>Message</label>
+      <textarea name="message" rows="5" placeholder="How can we help?"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p style="margin-top:10px;"><small>Prefer email directly? <a href="mailto:info@zegahub.com">info@zegahub.com</a></small></p>
   </div>
 </section>
 
@@ -79,7 +85,7 @@ button { padding: 10px 14px; border-radius: 10px; border: 1px solid #1f50ff; bac
 <footer>
   <div class="container">
     <small class="muted">© 2025 ZegaHub. Human × AI Ops with guardrails.</small>
-    <small class="muted">Built with Family Jan · Content pack v1 · 2025-09-01 07:08</small>
+    <small class="muted">Built with Family Jan · Contact pack v1 · 2025-09-01 07:26</small>
   </div>
 </footer>
 
